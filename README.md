@@ -28,23 +28,24 @@ Authorization: Chọn Basic Auth
 Username: admin
 
 Password: 12345
-
+## Demo kết quả
+![Postman test login](images/image1.png)
 2. Cookie Auth (cookie_auth.js)
 
-Step 1: Gửi request POST http://localhost:3000/login với body:
+Step 1: Gửi request POST http://localhost:3001/login với body:
 
 {
   "username": "admin",
   "password": "12345"
 }
-
+## Demo kết quả
+![Postman test login](images/image2.png)
 
 → Server trả về Cookie.
 
-Step 2: Truy cập API cần bảo vệ (VD: /profile)
-Postman sẽ tự động gửi kèm Cookie.
-
-Step 3: Đăng xuất GET http://localhost:3000/logout → Cookie bị xóa.
+Mongo compass: 
+## Demo kết quả
+![Test](images/image3.png)
 
 📂 Cấu trúc thư mục
 simple_auth/
