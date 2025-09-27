@@ -10,9 +10,19 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "cookie-parser": "^1.4.7",
     "express": "^5.1.0",
     "mongoose": "^8.18.2",
     "uuid": "^13.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehuynhnhu-git/simple_auth.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lehuynhnhu-git/simple_auth/issues"
+  },
+  "homepage": "https://github.com/lehuynhnhu-git/simple_auth#readme"
 }
